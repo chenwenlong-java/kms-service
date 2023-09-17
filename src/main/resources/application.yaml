@@ -1,0 +1,15 @@
+server:
+  port: 6000
+
+kms:
+  job:
+    keyExpression: "* 0/5 * * * *"
+    cacheExpression: "* 0/5 * * * *"
+  account:
+    # AES 256
+    key: xwTfrcCOQVOHKEhnzQgUufsEYORnvAULBEQZLalOicQ=
+  allow:
+    appIds:
+      - chenwenlong
+      - yuanyuan
+      - shirong
